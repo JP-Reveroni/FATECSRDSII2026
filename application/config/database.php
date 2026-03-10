@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	   => 'BD_Mapa', //Nome da conexão
-	'hostname' => 'localhost',  //Servidor onde está o banco de dados
+	'hostname' => 'localhost:3306',  //Servidor onde está o banco de dados
 	'username' => 'root', //Usuário do banco de dados
 	'password' => '', //Caso possua, a senha do banco de dados
-	'database' => '', //Nome do banco de dados criado
+	'database' => 'mapa', //Nome do banco de dados criado
 	'dbdriver' => 'mysqli', //Driver do banco de dados, iremos utilizar 
 	                        //esse por estarmos trabalhando com o Banco MySQL
 	'dbprefix' => '',
